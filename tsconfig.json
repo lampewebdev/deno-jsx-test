@@ -7,6 +7,7 @@
       "deno.ns",
       "deno.unstable"
     ],
+    "types": ["./types/JSX.d.ts"],
     "jsxFactory": "h"
   }
 }
