@@ -1,14 +1,8 @@
-import "./JSX.ts";
-// declare namespace JSX {
-//   interface IntrinsicElements {
-//     [elemName: string]: any;
-//   }
-//   interface ElementClass {
-//     render: any;
-//   }
-// }
-
-export const h = (tagNameOrComponent: any, props: any, ...children: any) => {
+export const h = (
+  tagNameOrComponent: string,
+  props: PropertyDescriptor,
+  ...children: JsxHTMLElement[]
+) => {
   console.log(tagNameOrComponent, props, children);
 };
 
